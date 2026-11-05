@@ -8,5 +8,5 @@ export async function obtenerPersonajes() {
   }
 
   const datos = await resultado.json();
-  return datos.results.slice(0, 8);
+  return datos.results;
 }
